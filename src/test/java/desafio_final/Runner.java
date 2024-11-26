@@ -6,18 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/resources/features",
+        features = "src/test/resources/features",
         glue = "desafio_final.steps",
-        tags = "@Feature",
-        snippets = CucumberOptions.SnippetType.CAMELCASE,
-        //dryRun = false,
-        plugin = {
-                "pretty",
-                "html:reports/cucumber.html",
-                "json:reports/cucumver.json",
-                "junit:reports/cucumber.xml",
-        }
+        tags = "@Global",
+        plugin = {"pretty", "html:target/cucumber-reports.html"},
+        monochrome = true
 )
-
 public class Runner {
 }

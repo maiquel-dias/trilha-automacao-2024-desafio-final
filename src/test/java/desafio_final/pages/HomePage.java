@@ -14,15 +14,8 @@ public class HomePage extends BasePage {
     public HomePage(WebDriver navegador) {
         super(navegador);
     }
-    public HomePage acessarPaginaHome(){
-        navegador.get("https://www.demoblaze.com/index.html");
-
-        return new HomePage(navegador);
-    }
-    public ProductPage abrirPaginaMonitores(){
+    public void abrirPaginaMonitores(){
         botaoMonitors.click();
-
-        return new ProductPage(navegador);
 
     }
 

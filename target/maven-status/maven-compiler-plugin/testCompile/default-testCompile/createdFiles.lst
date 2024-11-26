@@ -1,6 +1,8 @@
+desafio_final\utils\DriveManager.class
 desafio_final\BasePage.class
-desafio_final\pages\CartPage.class
 desafio_final\pages\ProductPage.class
-desafio_final\tests\DesafioTests.class
-desafio_final\pages\HomePage.class
+desafio_final\steps\DesafioTests.class
 desafio_final\pages\CheckoutPage.class
+desafio_final\Runner.class
+desafio_final\pages\CartPage.class
+desafio_final\pages\HomePage.class

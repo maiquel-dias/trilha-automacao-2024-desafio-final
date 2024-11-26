@@ -28,13 +28,11 @@ public class ProductPage extends BasePage {
 
         return new ProductPage(navegador);
     }
-    public CartPage addToCart(){
+    public void addToCart(){
         botaoCart.click();
 
         // Aceita o alerta que aparece após adicionar ao carrinho
         aceitaAlerta();
-
-        return new CartPage(navegador);
     }
     public void aceitaAlerta(){
         WebDriverWait wait = new WebDriverWait(navegador, Duration.ofSeconds(4));

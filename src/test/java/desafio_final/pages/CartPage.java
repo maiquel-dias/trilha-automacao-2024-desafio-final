@@ -54,9 +54,7 @@ public class CartPage extends BasePage {
         return new CartPage(navegador);
 
     }
-    public CheckoutPage enviar(){
+    public void enviar(){
         botaoPurchase.click();
-
-        return new CheckoutPage(navegador);
     }
 }
