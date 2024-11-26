@@ -9,8 +9,14 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "desafio_final.steps",
         tags = "@Global",
-        plugin = {"pretty", "html:target/cucumber-reports.html"},
-        monochrome = true
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        plugin = {
+                "pretty",
+                "html:reports/cucumber.html",
+                "json:reports/cucumber.json",
+                "junit:reports/cucumber.xml",
+        },
+        dryRun = false
 )
 public class Runner {
 }

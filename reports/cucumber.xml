@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="8.943" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Adicionar monitor ao carrinho e finalizar compra" name="Realizar compra" time="8.612">
+<system-out><![CDATA[
+Dado que estou na página inicial............................................passed
+E que clico no link de Monitores............................................passed
+E clico em um monitor da lista..............................................passed
+E adiciono o item no carrinho...............................................passed
+Quando acesso o menu carrinho...............................................passed
+E finalizo o pedido.........................................................passed
+Entao o pedido deve ser finalizado com sucesso..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
